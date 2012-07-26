@@ -1,0 +1,6 @@
+To run project:
+mvn clean verify - if all tests pass - then @Transactional annotation is working normally
+
+You may also open this project in Eclipse (I used Eclipse 4.2) with m2eclipse plugin installed.
+
+No databases is needed (project uses imbedded hsqldb that uses File.createTempFile())
